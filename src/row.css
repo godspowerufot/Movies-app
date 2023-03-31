@@ -1,0 +1,43 @@
+.row {
+  color: #0d0606;
+  margin-left: 10px;
+}
+
+.row h2 {
+  margin-left: 15px;
+}
+.title:hover {
+  background-color: #000;
+  opacity: 80%;
+  color: white;
+}
+
+.row__poster {
+  margin-right: 10px;
+  max-height: 100px;
+  object-fit: contain;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+  width: 100%;
+}
+.row_posterLarge:hover {
+  transform: scale(0.9);
+  opacity: 80%;
+}
+.row_posterLarge {
+  max-height: 250px;
+  margin-left: 10px;
+  width: fit-content;
+}
+
+@media screen and (max-width: 700px) {
+  .nothing {
+    padding-left: 20px;
+  }
+  .nothing img {
+    padding-left: 20px;
+    width: 50%;
+    height: 40%;
+  }
+}

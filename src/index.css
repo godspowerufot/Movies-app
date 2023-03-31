@@ -1,0 +1,55 @@
+.movieTitle {
+  padding-left: 10%;
+}
+.row {
+  color: white;
+  margin-left: 20px;
+}
+.movie-header {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 0%;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.titlecontainer {
+  top: 25%;
+  position: absolute;
+  width: 100%;
+  left: 17%;
+  padding: 4;
+  font-size: 20px;
+}
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .title,
+  .date,
+  .overw {
+    padding-left: 10%;
+  }
+
+  .movie-header {
+    width: fit-content;
+    height: fit-content;
+  }
+  .movieTitle {
+    padding-left: 20%;
+  }
+}
