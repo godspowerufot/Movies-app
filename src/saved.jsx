@@ -54,33 +54,23 @@ function SavedShows() {
               <img
                 src={` https://image.tmdb.org/t/p/w500/${item?.img}`}
                 alt={item?.title}
+                style={{ marginLeft: "10px" }}
               />
-              <div
-                className="title"
+
+              <p
+                className="titleMovie"
                 style={{
                   position: "absolute",
-                  top: "0",
-                  left: "0",
-                  width: "100%",
-                  color: "white",
+                  whiteSpace: "normal",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                   height: "100%",
+                  width: "100%",
                 }}
               >
-                <p
-                  className="titleMovie"
-                  style={{
-                    position: "absolute",
-                    whiteSpace: "normal",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    height: "100%",
-                    width: "100%",
-                  }}
-                >
-                  {item?.title}
-                </p>
-              </div>
+                {item?.title}
+              </p>
             </div>
           ))}
         </div>

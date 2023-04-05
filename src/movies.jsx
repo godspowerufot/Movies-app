@@ -39,27 +39,18 @@ function Movie({ item, index }) {
         alt={item?.title}
         className="row_posterLarge"
       />
-      <div
-        className="title"
-        style={{
-          position: "absolute",
-          top: "0",
-          left: "0",
-          width: "100%",
-          color: "white",
-          height: "100%",
-        }}
-      >
+      <div className="title" style={{}}>
         <p
           className="titleMovie"
           style={{
             position: "absolute",
-            whiteSpace: "normal",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            height: "100%",
+            left: "10px",
             width: "100%",
+            color: "white",
+            height: "100%",
+            display: "flex",
+            justifyItems: "center",
+            alignItems: "center",
           }}
         >
           {item?.title}
@@ -71,7 +62,7 @@ function Movie({ item, index }) {
               style={{
                 position: "absolute",
                 top: "4px",
-                left: "4px",
+                left: "10px",
                 fontSize: "30px",
                 color: "gray",
                 textIndent: "300px",
@@ -84,7 +75,7 @@ function Movie({ item, index }) {
                 top: "4px",
                 fontSize: "30px",
 
-                left: "4px",
+                left: "10px",
                 color: "gray",
                 textIndent: "300px",
               }}
