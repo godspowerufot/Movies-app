@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/godspowerufot/Movies-app.git%20/static/css/main.9bac534f.css",
+    "main.js": "/godspowerufot/Movies-app.git%20/static/js/main.f89f6c32.js",
+    "index.html": "/godspowerufot/Movies-app.git%20/index.html",
+    "main.9bac534f.css.map": "/godspowerufot/Movies-app.git%20/static/css/main.9bac534f.css.map",
+    "main.f89f6c32.js.map": "/godspowerufot/Movies-app.git%20/static/js/main.f89f6c32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bac534f.css",
+    "static/js/main.f89f6c32.js"
+  ]
+}
